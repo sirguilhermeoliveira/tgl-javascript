@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="html-background-color">
+
+<head>
+	<title>Lottery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<script src="https://kit.fontawesome.com/aedb88da40.js" crossorigin="anonymous"></script>
+	
+	<script src="index.js"></script>
+</head>
+	<header class="menu-container">
+		<div class="menu-border">
+			<nav class="menu-nav-left">
+				<ul class="side-by-side">
+					<div class="menu-nav-left__container">
+						<a class="menu-nav-left__tgl">TGL</a>
+						<div class="menu-nav-left__underline"></div>
+					</div>
+					<a class="menu-nav-left__home">Home</a>
+				</ul>
+			</nav>
+			<nav class="menu-nav-right">
+				<ul class="side-by-side">
+					<a class="menu-nav-right__account">Account</a>
+					<a>Log out </a>
+					<a class="menu-nav-right__arrow"><i class="fas fa-arrow-right"></i></a>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+
+	<body>
+	<div class="bets-container">
+
+		<div class="bets-left-row">
+			<section class="bets-left">
+				<div class="bets-left__row">
+					<p class="bets-left__newbet">new bet</p>
+					<p class="bets-left__newbet--sub" id="bets-newbet-for">
+					</p>
+				</div>
+				<div class="bets-left__chooseAGame">Choose a game</div>
+				<div class="bets-left__wrapGames" id="bets-container-lotos"></div>
+				<div class="bets-left__containerNumbers">
+					<p class="bets-left__fillYourBet">Fill your bet</p>
+					<p id="bets-description"></p>
+				</div>
+				<div class="bets-left__numbers" id="ext"></div>
+					<div class="bets-left__buttonContainer">
+						<button onclick=completeGame()>Complete game</button>
+						<button onclick=clearGame()>Clear Game</button>
+						<button class="bets-left__cartButton" onclick=addToCart()>
+							<i class="fas fa-shopping-cart"></i>Add to cart</button>
+					</div>
+			</section>
+
+	<div class="cart-right-row">
+		<section class="cart-right">
+			<div class="cart-right__items">
+				<p class="cart-right__title">cart</p>
+				<div class="cart-right__info">
+					<p class="cart-right__emptyCart"  id="cart-bets">Empty Cart</p>
+				</div>
+				<h2 class="cart-right-bottom" id="cart-total-bets"></h2>
+			</div>
+			<p class="cart-right-save">
+				Save <i class="fas fa-arrow-right"></i>
+			</p>
+		</section>
+	</div>
+</div>
+</div>
+</body>
+
+<footer class="footer__container">
+	<p class="footer__text">
+		Lottery - 2021
+	</p>
+</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

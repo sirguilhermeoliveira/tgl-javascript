@@ -1,0 +1,65 @@
+.menu-container {
+  border-bottom: 2px solid #ebebeb;
+}
+
+.menu-border {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  width: 1139px;
+  padding-left: 181px;
+  justify-content: space-between;
+  height: 46px;
+  padding-top: 15px;
+}
+
+.menu-nav-left__home {
+  font-size: 1.25rem;
+  color: #707070;
+  margin-left: 60px;
+  margin-top: 8px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.menu-nav-left__container {
+  margin-top: -5px;
+}
+
+.menu-nav-left__tgl {
+  outline: none;
+  border: 1px;
+  font-size: 2.75rem;
+  color: #707070;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.menu-nav-left__underline {
+  width: 100px;
+  height: 4px;
+  border: 1px solid #b5c401;
+  background-color: #b5c401;
+  border-radius: 5px;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.menu-nav-right {
+  padding-right: 170px;
+  padding-top: 8px;
+}
+.menu-nav-right__arrow {
+  margin-left: 10px;
+}
+
+.menu-nav-right__account {
+  margin-right: 30px;
+}
+
+.menu-nav-right a {
+  color: #707070;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.25rem;
+}

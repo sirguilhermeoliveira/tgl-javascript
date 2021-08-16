@@ -1,0 +1,40 @@
+{
+  "types": [
+    {
+      "type": "Lotofácil",
+      "description": "Choose 15 numbers to bet on the lotofácil. You win by hitting 11, 12, 13, 14 or 15 numbers. There are plenty of chances to win, and now you play wherever you are!",
+      "range": 25,
+      "price": 2.5,
+      "max-number": 15,
+      "color": "#7F3992",
+      "min-cart-value": 30
+    },
+    {
+      "type": "Mega-Sena",
+      "description": "Choose 6 numbers out of 60 available in the mega-sena. Win with 6, 5 or 4 hits. There are two weekly draws for you to bet and hope to become a millionaire.",
+      "range": 60,
+      "price": 4.5,
+      "max-number": 6,
+      "color": "#01AC66",
+      "min-cart-value": 30
+    },
+    {
+      "type": "Lotomania",
+      "description": "Choose 20 numbers out of the 100 available in the mega-sena. Win with 15, 16.17 or no numbers.",
+      "range": 100,
+      "price": 1.5,
+      "max-number": 20,
+      "color": "#F79C31",
+      "min-cart-value": 30
+    },
+    {
+      "type": "Quina",
+      "description": "Choose 5 numbers from the 80 available on the corner. 5, 4, 3 or 2 hits. There are six weekly draws and six chances to win.",
+      "range": 80,
+      "price": 2.0,
+      "max-number": 5,
+      "color": "#dd552c",
+      "min-cart-value": 30
+    }
+  ]
+}

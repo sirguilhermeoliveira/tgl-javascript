@@ -1,0 +1,321 @@
+.html-background-color {
+  background-color: #f7f7f7;
+}
+
+.bets-container {
+  padding-top: 60px;
+  min-height: calc(100vh - 160px - 100px);
+  display: flex;
+  flex-direction: row;
+}
+
+/* Body Left */
+
+.bets-left__row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.bets-left__wrapGames {
+  width: 610px;
+}
+
+.bets-wrap-games button {
+  flex-wrap: wrap;
+}
+
+.bets-left-row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.bets-loteria-container-style {
+  border: none;
+  border: 2px solid;
+  border-radius: 20px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 7px 28px;
+  margin-top: 15px;
+  margin-right: 25px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.bets-left__numbers div:hover,
+.bets-left__buttonContainer button:hover,
+.bets-loteria-container-style:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.bets-container-numbers {
+  margin-bottom: 20px;
+}
+
+.bets-left__chooseAGame {
+  color: #868686;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 30px;
+  font-size: 1.063;
+}
+
+.bets-left__fillYourBet {
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+  color: gray;
+  font-size: 1.063rem;
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+.bets-left__containerNumbers p {
+  text-align: left;
+  font-style: italic;
+  letter-spacing: 0px;
+  color: #868686;
+  font-weight: bold;
+  width: 630px;
+}
+
+.bets-left__numbers div {
+  color: #ffffff;
+  padding: 21px 20px;
+  border-radius: 50%;
+  background-color: #adc0c4;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1.025rem;
+}
+
+.bets-left__numbers {
+  width: 600px;
+  float: left;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.bets-left__buttonContainer button {
+  border: none;
+  border: 1px solid;
+  color: #27c383;
+  border-color: #27c383;
+  margin-right: 20px;
+  padding: 13px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.bets-left__buttonContainer .bets-left__cartButton {
+  border: none;
+  margin-left: 58px;
+  color: white;
+  background-color: #27c383;
+  padding-right: 55px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.bets-save-button {
+  font-size: 2.188rem;
+  justify-content: center;
+  color: #27c383;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  border-color: #e2e2e2;
+  margin-left: 50px;
+}
+
+.bets-save-button .menu-arrow-save {
+  margin-left: 15px;
+  color: #27c383;
+}
+
+.bets-left__newbet {
+  color: #707070;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 8px;
+  font-style: italic;
+  font-size: 1.375rem;
+}
+
+.bets-left__newbet--sub {
+  color: grey;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 1.375rem;
+}
+
+.bets-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.bets-row h2 {
+  text-transform: uppercase;
+}
+
+.menu-arrow-save {
+  margin-left: 20px;
+  color: #27c383;
+}
+
+.fa-shopping-cart {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Body Right */
+
+.cart-right {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  width: 317px;
+  margin-top: -25px;
+}
+
+.cart-right__emptyCart:first-child {
+  color: red;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cart-money {
+  color: #868686;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.cart-right__items {
+  margin-left: 30px;
+  margin-top: -5px;
+}
+.cart-right__items h2 {
+  font-style: italic;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.cart-right__title {
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  color: #707070;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.cart-right__info {
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+.cart-side-black {
+  color: #707070;
+  margin-right: 8px;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 1.438rem;
+  margin-bottom: 40px;
+}
+
+.cart-side-black-right {
+  font-size: 1.438rem;
+  font-style: none;
+  font-weight: none;
+}
+
+.bets-info-right h1 {
+  color: red;
+}
+
+.cart-save-button i {
+  margin-left: 20px;
+}
+
+.bar-side-cart {
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+
+.bets-change {
+  color: white;
+  padding: 15px 2px;
+  border-radius: 150px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+.top-by-top {
+  word-break: break-all;
+}
+
+.menu-thrash-save {
+  margin-right: 15px;
+  cursor: pointer;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #888888;
+}
+
+.cart-right-text {
+  text-align: left;
+  letter-spacing: 0px;
+  font-size: 0.938rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #868686;
+  padding-top: 10px;
+}
+
+.bets-backgroundcolor-lotos-container {
+  padding: 2px;
+  margin-right: 10px;
+  border-radius: 100px 0px 0px 100px;
+}
+
+.bets-color-lotos-container {
+  font-size: 17px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.cart-right-bottom {
+  margin-top: 10px;
+}
+
+.cart-right-save {
+  display: flex;
+  justify-content: center;
+  padding: 27px;
+  background: #f7f7f7;
+  color: #27c383;
+  border: 1px solid #e2e2e2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 2.188rem;
+  font-weight: bold;
+  font-style: italic;
+}
