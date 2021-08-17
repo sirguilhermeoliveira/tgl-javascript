@@ -1,19 +1,19 @@
-#Conteúdo
+#Contents
 
-#Requisitos Não Funcionais
+#Non-Functional Requirements
 
-    RNF01. Construir toda a página utilizando Html, CSS e Javascript Puro.
+      RNF01. Build the page with Html, CSS e Javascript Vanilla.
 
-      RNF02. Consumir o arquivo JSON para obter os jogos e suas regras (Em Anexo)
+      RNF02. Consume the JSON file to obtain the games and the rules
 
-      RNF03. Se preferir, pode utilizar bootstrap
+      RNF03. Make a responsive page(Flexbox)
 
-#Requisitos Funcionais
+#Functional Requirements
 
-    RF01. Complete Game: para completar aleatoriamente os números
+     RF01. Complete Game: Complete the game with random numbers
 
-     RF02. Clear game: limpar todos os números selecionados
+     RF02. Clear game: Clear all the selected games
 
-     RF03. Add to cart: adicionar os números no carrinho
+     RF03. Add to cart: Add the selected games to the cart
 
-     RF04. Delete: apagar um item do carrinho
+     RF04. Delete: Delete an item from the cart
