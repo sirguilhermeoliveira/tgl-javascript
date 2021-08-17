@@ -1,14 +1,15 @@
-#Contents
+# Contents
 
-#Non-Functional Requirements
+# Non-Functional Requirements
 
       RNF01. Build the page with Html, CSS e Javascript Vanilla.
 
       RNF02. Consume the JSON file to obtain the games and the rules
 
       RNF03. Make a responsive page(Flexbox)
+     
 
-#Functional Requirements
+# Functional Requirements    
 
      RF01. Complete Game: Complete the game with random numbers
 
